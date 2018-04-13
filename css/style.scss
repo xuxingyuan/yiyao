@@ -1,0 +1,394 @@
+*{
+		margin:0;
+		padding:0;
+		
+	}
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+	ul{list-style: none;}
+
+	html,body,.container{
+		width: 100%;
+	    height: 100%;
+		font-size: 62.5%;
+		background: #fff;
+		overflow: hidden;
+		display: flex;
+		flex-direction:column;
+		header{
+		width: 100%;
+		height:5rem;
+		background: #52BA46;
+		/*line-height: 5rem;*/
+		/*color:#fff;
+		text-align: center;
+		font-size:1.2rem;*/
+		.tou_one{
+		width: 80%;
+		height: 5rem;
+		font-size: 2.1rem;
+		color:#fff;
+		/*background: red;*/
+		line-height: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		display: flex;
+		 justify-content:space-between;
+
+	    .fav{
+	    	display: none;
+		
+	   }
+	    .return{
+		display: none;
+	    }
+		
+
+		}
+
+	}
+
+	.main{
+		/*background: pink;*/
+		flex:1;
+		justify-content:space-around;
+		display: flex;
+		align-items:center;
+		position: relative;
+		overflow: hidden;
+		.home{
+		width:100%;
+		height:100%;
+		/*overflow: auto;*/
+		/*background: orange;*/
+		.banner{
+			width:100%;
+			
+			/*background: yellow;*/
+
+			.swiper-container img {
+         width: 100%;
+         /*height: 100%*/
+    }
+		}
+		.four{
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			padding-top: 1rem;
+			/*background:lime;*/
+			ul {
+				 display: flex;
+				 padding-bottom: 1rem;
+				 justify-content: space-around;
+                 
+
+				li{
+					
+					width: 45%;	
+					text-align: center;		
+					height: 15rem;
+					background: #F9BC26;
+					&:nth-child(2){
+						 background: #CB3B3B;
+					}
+					
+					
+					img{
+						padding-top: 1rem;
+							
+					}
+					p{
+						text-align: center;
+						color: #fff;
+						padding-top: 1rem;
+						font-size: 1.5rem;
+					}
+				}
+			}
+			.uls li{
+				background: #5CBE51;
+				&:nth-child(2){
+						 background: #3E85B9;
+					}
+
+			}
+
+		}
+		
+	}
+	.news{
+		background: #fff;
+		height:100%;
+		width:100%;
+		overflow: auto;
+		.banner{
+			width:100%;			
+			.swiper-container img {
+         width: 100%;
+         height: 100%
+    }
+		}
+		.text{
+			width: 100%;
+			height: 7rem;
+			border-bottom: 1px solid #E4E4E4;
+			.text_cen{
+				width: 80%;
+				height: 7rem;
+				background: yellow;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+
+				.mine{
+width: 100%;
+height: 7rem;
+background-color: #fff;
+display: flex;
+justify-content:flex-start;
+border-bottom: 0.2rem solid #e4e4e4;
+img{
+width: 4rem;
+height: 4rem;
+margin-left: 4rem;
+margin-top: 1.5rem; 
+}
+span{
+padding-top: 2.5rem;
+padding-left: 2.5rem;
+font-size: 2rem; 
+}
+}
+				
+				
+			}
+		}
+		.cole{
+			width: 100%;
+			margin-top: 1.5rem;
+			.cole_centen{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			display:block;
+			font-size: 1.8rem;
+			/*background: pink;*/
+
+			.ect{
+				width: 8rem;
+				height: 2rem;
+				text-align: center;
+				margin:0px 1.8rem 0px 0px;
+				border: 1px solid #E7E7E7; 
+			}
+			.ects{
+				width: 18rem;
+				height: 2rem;
+				margin-top: 2rem;
+				text-align: center;
+				border: 1px solid #E7E7E7; 
+			}
+			.bt1{
+				width: 8rem;
+				height: 2.5rem;
+				color: #fff;
+			    margin-top: 2rem;
+				text-align: center;
+				line-height: 2.5rem;
+				font-size: 1.5rem;
+				background: #71C765;
+				border: 1px solid #E7E7E7;
+			}
+			.bt2{
+				width: 8rem;
+				height: 2.5rem;
+				/*color: #fff;*/
+
+			    margin-top: 2rem;
+				text-align: center;
+				line-height: 2.5rem;
+				font-size: 1.5rem;
+				background: #fff;
+				border: 1px solid #E7E7E7;
+			}
+			.dier{
+				
+				height: 2.5rem;
+				background: #71C765;
+				color: #fff;
+				margin-top: 1rem;
+				font-size: 1rem;
+				text-align: center;
+				line-height: 2.5rem;
+			}
+
+		}
+		}
+		
+
+
+
+
+
+
+
+
+
+	}
+	.list{
+		/*background: #333;*/
+		height:100%;
+		width:100%;
+		.biao{
+			width: 100%;
+			height: 5rem;
+			background:#52BA46;
+			.biao_cen{
+				width: 80%;
+				height: 3rem;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				/*background: red;*/
+				ul{
+					display: flex;
+					color: #fff;
+					justify-content: space-between;
+					li{
+						width: 33%;
+						height: 3rem;
+						font-size: 1.5rem;
+						text-align: center;
+						line-height: 3rem;
+						border: 1px solid #fff;
+
+					}
+				}
+			}
+		}
+
+		.message{
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+.message li{
+width: 100%; 
+display: flex;
+justify-content: space-around;
+align-content: center;
+font-size: 1rem;
+border-bottom: 1px #f1f1f1 solid;
+padding-bottom: 2rem;
+img{
+margin-top: 1.5rem;
+}
+.kep{
+margin-top: 2rem;
+}
+}
+	}
+	.me{
+		background:#F1F1F1;
+		overflow: auto;
+		
+		height:100%;
+		width:100%;
+		.l_l{
+			width: 100%;
+			margin-bottom: 3%;
+			background: #fff;
+
+			.tiao_one{
+				width: 90%;
+				height: 5rem;
+				border-bottom: 2px solid #F3F3F3;
+				line-height: 5rem;
+				background: #fff;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				img{
+					display: inline-block;
+					float: left;
+				}
+				.sp{
+				float: left;
+			/*	background: yellow;*/
+				margin-left: 4%;
+				font-size: 1.5rem;
+				height: 5rem;
+				}
+				.sp_one{
+					float:right;
+				/*background: yellow;*/
+				font-size: 1.5rem;
+				height: 5rem;
+				}
+				
+			}
+			
+		}
+	}
+
+
+	}
+	footer{
+		width: 100%;
+		height:5rem;
+		border-top: 1px #ECECEC solid;
+		background: #F9F9F9;
+		nav ul {
+		display: flex;
+		li{
+		width:100%;
+		height:100%;
+		color:#fff;
+		font-size:1.5rem;
+		text-align: center;
+		padding-top: 1rem;
+	}
+	}
+	}
+	
+    .main > div{
+		width:100%;
+		left:0px;
+		top:0px;
+		position: absolute;
+		transform:translate3d(100%,0,0);
+	}
+	.main>div:first-child{
+		transform:translate3d(0,0,0);
+	}
+	}
+	.pict{
+		width: 100%;
+		height: 100%;
+		
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	/*.fav{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		text-align: left;
+		background: red;
+	}
+	.return{
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		background: red;
+		text-align: right;
+
+	    
+	}*/
